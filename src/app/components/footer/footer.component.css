@@ -1,8 +1,16 @@
 div{
-    background-color: #009F3B;
+    background: #009F3B;
+    
 }
 img{
     width: 50px;
- 
     
+}
+.container {
+    display: flex;
+    justify-content: center/flex-start;
+    color: white;
+    text-align: center;
+    
+   
 }
