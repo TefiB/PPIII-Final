@@ -1,0 +1,65 @@
+<form>
+    <div class="form-row col-md-6" >
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+      </div>
+
+      <div class="col-auto my-1">
+        <label class="mr-sm-2" for="inlineFormCustomSelect">Documento</label>
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Seleccione...</option>
+          <option value="1">DNI</option>
+          <option value="2">CI</option>
+          <option value="3">LI</option>
+        </select>
+      </div>
+
+      <div class="col-auto my-1">
+     <label class="mr-sm-2" for="inlineFormCustomSelect">Sexo</label>
+     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+      <option selected>Seleccione...</option>
+      <option value="1">Femenino</option>
+      <option value="2">Masculino</option>
+      <option value="3">Otro</option>
+     </select>
+    </div>
+
+    <div>
+        <label class="mr-sm-2" for="inlineFormCustomSelect">Fecha de Nacimiento</label>
+        <input type="date" name="date" id="idate">
+    </div>
+
+    <div class="custom-file">
+        <label class="custom-file-label" for="customFileLang">Foto de Perfil</label>
+        <input type="file" class="custom-file-input" id="customFileLang" lang="es">    
+    </div>
+
+    <div class="col-auto my-1">
+        <label class="mr-sm-2" for="inlineFormCustomSelect">Rol</label>
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Seleccione...</option>
+          <option value="1">Usuario</option>
+          <option value="2">Administrador</option>
+        </select>
+      </div>
+ 
+  <div class="form-group col-md-6">
+    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+  </div>
+  <div class="form-group col-md-6">
+    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+  </div>  
+
+<div class="form-group">
+    <label for="inputAddress">Direccion</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Calle Altura Numero">
+  </div>
+
+<input type="submit" value="Aceptar">
+<input type="reset" value="Borrar">
+
+</form>
