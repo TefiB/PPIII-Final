@@ -13,6 +13,9 @@ import { CentroComponent } from './components/centro/centro.component';
 import { HomeComponent } from './user/home/home.component';
 import { AdduserComponent } from './adduser/adduser.component';
 import { MisprestamosComponent } from './user/misprestamos/misprestamos.component';
+import { HomeadminComponent } from './user/homeadmin/homeadmin.component';
+import { NavbaradminComponent } from './components/navbaradmin/navbaradmin.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { MisprestamosComponent } from './user/misprestamos/misprestamos.componen
     CentroComponent,
     HomeComponent,
     AdduserComponent,
-    MisprestamosComponent
+    MisprestamosComponent,
+    HomeadminComponent,
+    NavbaradminComponent,
+   
     
   ],
   imports: [
