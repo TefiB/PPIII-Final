@@ -9,8 +9,10 @@ img{
 .container {
     display: flex;
     justify-content: center/flex-start;
-    color: white;
+    color: black;
     text-align: center;
-    
-   
+
 }
+
+
+
