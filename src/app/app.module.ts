@@ -15,6 +15,13 @@ import { AdduserComponent } from './adduser/adduser.component';
 import { MisprestamosComponent } from './user/misprestamos/misprestamos.component';
 import { HomeadminComponent } from './user/homeadmin/homeadmin.component';
 import { NavbaradminComponent } from './components/navbaradmin/navbaradmin.component';
+import { CatalogoComponent } from './user/catalogo/catalogo.component';
+import { AddbookComponent } from './user/addbook/addbook.component';
+import { AddautorComponent } from './user/addautor/addautor.component';
+import { AddejemplarComponent } from './user/addejemplar/addejemplar.component';
+import { AddnotebookComponent } from './user/addnotebook/addnotebook.component';
+import { AddeditorialComponent } from './user/addeditorial/addeditorial.component';
+import { AddcategoriaComponent } from './user/addcategoria/addcategoria.component';
 
 
 @NgModule({
@@ -32,6 +39,13 @@ import { NavbaradminComponent } from './components/navbaradmin/navbaradmin.compo
     MisprestamosComponent,
     HomeadminComponent,
     NavbaradminComponent,
+    CatalogoComponent,
+    AddbookComponent,
+    AddautorComponent,
+    AddejemplarComponent,
+    AddnotebookComponent,
+    AddeditorialComponent,
+    AddcategoriaComponent,
    
     
   ],
